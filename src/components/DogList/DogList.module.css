@@ -1,0 +1,28 @@
+.listContainer {
+  width: 40%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.item {
+  padding: 10px;
+  color: #1e1e24;
+  cursor: pointer;
+}
+
+.even {
+  background-color: #fff;
+}
+
+.odd {
+  background-color: #dddde3;
+}
+
+.item:hover {
+  background-color: #bac9ff;
+}
+
+.selected {
+  background-color: #00007c;
+  color: white;
+}
